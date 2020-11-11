@@ -1,7 +1,6 @@
 from ogrenci import Ogrenci
 from ders import Ders
 
-
 if __name__ == "__main__":
     ogrenci1 = Ogrenci()
     ogrenci1.ad="Ahmet"
@@ -59,5 +58,3 @@ if __name__ == "__main__":
     for i in ogrenci1.dersler:
         print(i.dersadi)
     
- 
-        
