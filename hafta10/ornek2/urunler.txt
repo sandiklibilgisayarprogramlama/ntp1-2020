@@ -1,0 +1,6 @@
+meyve,elma,turuncu,4
+sebze,havuc,turuncu,3
+cerez,badem,80
+meyve,armut,yeşil,6
+cerez,ceviz,35
+sebze,fasulye,yeşil,7
