@@ -16,3 +16,8 @@ for urun in urunListe:
     else:
         cerez=Cerez(urunL[1],urunL[2])
         cerez.adfiyatyaz(1)
+
+"""
+   Öncelikle klavyeden her üründen kaç kg alacağı kişiye sorulsun. eğer kişi 0 dan büyük bir tutar girerse
+   sonuçlar fiyatlistesi.txt dosyasına yazdırılsın. 
+"""
