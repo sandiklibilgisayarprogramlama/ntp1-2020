@@ -8,3 +8,5 @@ elma.adiEkranaYaz()
 armut.adiEkranaYaz()
 print(seftali.fiyatHesapla(3))
 print(elma.cins)
+
+print(armut.cins)
