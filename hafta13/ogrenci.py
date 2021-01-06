@@ -4,7 +4,7 @@ date: 30.12.2020
 desc: ogrenci nesnelerinin ozelliklerinin bulundugu bir sinif
 """
 class Ogrenci:
-    _ad=None
+    __ad=None
     __soyad=None
     __tcno=None
     """
@@ -18,9 +18,22 @@ class Ogrenci:
     None
     """
     def __init__(self,ad,soyad,tcno):
-        self._ad=ad
+        self.__ad=ad
         self.__soyad=soyad
         self.__tcno=tcno
+        self.__ad=str(self.__ad).capitalize()
 
     def adyaz(self):
-        print(self._ad)
+        print(self.__ad)
+    
+    def adDegistir(self,ad):
+        """
+        bu metodu ogrenci adi değiştirmekte kullanınız.
+
+        Args:
+            ad ([type]): [description]
+        """
+        self.__ad=ad
+    
+    def soyad_degistir(self,soyad):
+        self.__soyad=soyad
