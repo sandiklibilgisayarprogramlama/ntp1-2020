@@ -1,4 +1,5 @@
 class Fikstur:
+    _x=10
     def __init__(self,takim,rakipDict):
         self._rakipDict=rakipDict
         self._takim=takim
